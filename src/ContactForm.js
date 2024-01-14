@@ -20,7 +20,7 @@ class ContactForm extends Component  {
       handleFormSubmit = e => {
         e.preventDefault();
         // const API_PATH = 'http://localhost:3000/app/contact/index.php'
-        const API_PATH = 'http://localhost:1992/api/contact/index.php'
+        const API_PATH = 'http://localhost:8080/api/contact/index.php'
         axios({
           method: 'post',
           url: `${API_PATH}`,
