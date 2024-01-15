@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-import ContactForm from './ContactForm';
+// import ContactForm from './ContactForm';
 
 import axios from 'axios';
 // import './App.css';
@@ -29,7 +29,7 @@ function App() {
         </a>
         
       </header>
-      <ContactForm />
+      {/* <ContactForm /> */}
     </div>
   );
 }
