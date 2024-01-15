@@ -22,7 +22,7 @@ console.log(app)
 // });
 
 
-const port = process.env.PORT || 3000;
+// const port = process.env.PORT || 3000;
 
 
 
@@ -39,12 +39,12 @@ app.get('/', (req, res) => {
 
 //Nouveau listen fix railway
 
-// app.listen(8080, "0.0.0.0",() => {
-//     console.log('server listening on port 8080, OK')
-// })
-
-
-app.listen(port, "0.0.0.0",() => {
+app.listen(8080, "0.0.0.0",() => {
     console.log('server listening on port 8080, OK')
 })
+
+
+// app.listen(port, "0.0.0.0",() => {
+//     console.log('server listening on port 8080, OK')
+// })
 
